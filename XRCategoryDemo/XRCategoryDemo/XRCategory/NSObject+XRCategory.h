@@ -12,7 +12,7 @@
 
 
 //- (id)performSelector:(SEL)aSelector withObject:(id)object1 withObject:(id)object2;
-@property (nonatomic, strong, readonly) id(^performSelWith2Obj)(SEL, id, id);
+//@property (nonatomic, strong, readonly) id(^performSelWith2Obj)(SEL, id, id);
 
 //- (void)performSelector:(SEL)aSelector withObject:(nullable id)anArgument afterDelay:(NSTimeInterval)delay;
 @property (nonatomic, strong, readonly) void(^performSelAfterDelay)(SEL, id, NSTimeInterval);

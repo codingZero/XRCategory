@@ -15,11 +15,11 @@
     return obj;
 }
 
-- (id (^)(SEL, id, id))performSelWith2Obj {
-    return ^(SEL selector, id obj1, id obj2) {
-        return [self performSelector:selector withObject:obj1 withObject:obj2];
-    };
-}
+//- (id (^)(SEL, id, id))performSelWith2Obj {
+//    return ^(SEL selector, id obj1, id obj2) {
+//        return [self performSelector:selector withObject:obj1 withObject:obj2];
+//    };
+//}
 
 
 - (void (^)(SEL, id, NSTimeInterval))performSelAfterDelay {
