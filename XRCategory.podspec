@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name         = "XRCategory"
   s.version      = "1.0.0"
-  s.summary      = "a tableView which can sequence by drag cell"
+  s.summary      = "a powerful category，make development easier"
 
   s.homepage     = "https://github.com/codingZero/XRCategory"
 
