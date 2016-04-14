@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "XRCategory"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "a powerful category，make development easier"
 
   s.homepage     = "https://github.com/codingZero/XRCategory"
